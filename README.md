@@ -2,7 +2,7 @@
 
 Docker image for NodeJS with [OpenBR](http://openbiometrics.org/)
 
-## Install
+## Quickstart
 
 - In your shell:
 
@@ -16,7 +16,7 @@ docker pull mgcrea/node-openbr:1.1.0
 FROM mgcrea/node-openbr:1.1.0
 ```
 
-## Usage with `docker-compose`
+### Usage with `docker-compose`
 
 ```yaml
 # https://docs.docker.com/compose/yml/
@@ -46,4 +46,9 @@ services:
 docker-compose up -d
 ```
 
-**NOTE**: for security reasons, starting this docker container will change the permissions of all files in your data directory to a new, docker-only user. This ensures that the docker container can access the files.
+
+### Latest tagged releases
+
+- `mgcrea/node-openbr:1`
+- `mgcrea/node-openbr:1.1`
+- `mgcrea/node-openbr:1.1.0`
