@@ -50,6 +50,8 @@ docker-compose up -d
 
 ### Latest tagged releases
 
+You can find the latest available tags at [hub.docker.com](https://hub.docker.com/r/mgcrea/node-openbr/tags/)
+
 - `mgcrea/node-openbr:1`
 - `mgcrea/node-openbr:1.1`
 - `mgcrea/node-openbr:1.1.0`
