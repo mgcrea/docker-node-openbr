@@ -15,3 +15,6 @@ rebuild:
 release: rebuild
 	@docker build --build-arg OPENBR_VERSION=${OPENBR_VERSION} --tag=${DOCKER_IMAGE}:${OPENBR_VERSION} .
 	@scripts/tag.sh ${DOCKER_IMAGE} ${OPENBR_VERSION}
+
+push:
+	@scripts/push.sh ${DOCKER_IMAGE} ${OPENBR_VERSION}

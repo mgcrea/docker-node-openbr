@@ -1,4 +1,4 @@
-# docker-node-openbr [![Docker Pulls](https://img.shields.io/docker/pulls/mgcrea/node-openbr.svg)](https://registry.hub.docker.com/u/mgcrea/node-openbr/)
+# docker-node-openbr [![docker pulls](https://img.shields.io/docker/pulls/mgcrea/node-openbr.svg)](https://registry.hub.docker.com/u/mgcrea/node-openbr/) [![image size](https://img.shields.io/imagelayers/image-size/mgcrea/node-openbr/latest.svg)](https://imagelayers.io/?images=mgcrea%2Fnode-openbr:latest)
 
 Docker image for NodeJS with [OpenBR](http://openbiometrics.org/)
 
@@ -8,6 +8,7 @@ Docker image for NodeJS with [OpenBR](http://openbiometrics.org/)
 
 ```sh
 docker pull mgcrea/node-openbr:1.1.0
+docker run --name test_openbr -it mgcrea/node-openbr:1.1.0 /bin/bash
 ```
 
 - In your `Dockerfile`:
